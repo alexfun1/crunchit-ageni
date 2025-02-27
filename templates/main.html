@@ -1,0 +1,51 @@
+{{ define "body" }}
+<h2>Main Screen</h2>
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" data-bs-toggle="tab" href="#txt2img">txt2img</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="tab" href="#img2img">img2img</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="tab" href="#chat">Chat</a>
+  </li>
+</ul>
+<div class="tab-content p-3 border">
+  <div class="tab-pane fade show active" id="txt2img">
+    <form>
+      <div class="mb-3">
+        <label>Prompt:</label>
+        <input type="text" class="form-control" />
+      </div>
+      <button class="btn btn-primary">Generate</button>
+    </form>
+  </div>
+  <div class="tab-pane fade" id="img2img">
+    <form>
+      <div class="mb-3">
+        <label>Upload Image:</label>
+        <input type="file" class="form-control" />
+      </div>
+      <div class="mb-3">
+        <label>Prompt:</label>
+        <input type="text" class="form-control" />
+      </div>
+      <button class="btn btn-primary">Generate</button>
+    </form>
+  </div>
+  <div class="tab-pane fade" id="chat">
+    <form>
+      <div class="mb-3">
+        <label>Message:</label>
+        <input type="text" class="form-control" />
+      </div>
+      <button class="btn btn-primary">Send</button>
+    </form>
+  </div>
+</div>
+
+<hr>
+<a href="/account" class="btn btn-outline-info">Manage Account</a>
+<a href="/logout" class="btn btn-outline-danger">Logout</a>
+{{ end }}

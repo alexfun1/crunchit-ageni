@@ -1,0 +1,12 @@
+{{ define "body" }}
+<h2>Account Settings</h2>
+<p><strong>User ID:</strong> {{.ID}}</p>
+<p><strong>Login:</strong> {{.Login}}</p>
+<p><strong>Email:</strong> {{.Email}}</p>
+<p><strong>Mana:</strong> {{.Mana}}</p>
+
+<form action="/account/addmana" method="POST">
+    <button class="btn btn-success">Add 100 Mana</button>
+</form>
+<a href="/main" class="btn btn-secondary">Back to Main</a>
+{{ end }}
