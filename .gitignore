@@ -1,4 +1,4 @@
 depth_images/*
 generated_images/*
-pkg/__pycache__/_*
-__pycache__/_*
+pkg/__pycache__/*
+__pycache__/*

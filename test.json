@@ -1,0 +1,226 @@
+[
+    {
+      "title": "animergePonyXL_v40.safetensors",
+      "model_name": "animergePonyXL_v40",
+      "hash": null,
+      "sha256": null,
+      "filename": "/home/fun/AI-Platforms/stable-diffusion-webui-forge/models/Stable-diffusion/animergePonyXL_v40.safetensors",
+      "config": null
+    },
+    {
+      "title": "animilf25DMix_v10.safetensors [5fe2c00150]",
+      "model_name": "animilf25DMix_v10",
+      "hash": "5fe2c00150",
+      "sha256": "5fe2c00150e5410a8ab4441a4e7492f36c1aeb4a07619b4850f9bd0844abcf97",
+      "filename": "/home/fun/AI-Platforms/stable-diffusion-webui-forge/models/Stable-diffusion/animilf25DMix_v10.safetensors",
+      "config": null
+    },
+    {
+      "title": "anitoonPonyXL_v40.safetensors [e3485949f7]",
+      "model_name": "anitoonPonyXL_v40",
+      "hash": "e3485949f7",
+      "sha256": "e3485949f704ffc278fbf7efa21b97d220564c4385228d86499cd469e3f4be93",
+      "filename": "/home/fun/AI-Platforms/stable-diffusion-webui-forge/models/Stable-diffusion/anitoonPonyXL_v40.safetensors",
+      "config": null
+    },
+    {
+      "title": "aniversePonyXL_v40.safetensors",
+      "model_name": "aniversePonyXL_v40",
+      "hash": null,
+      "sha256": null,
+      "filename": "/home/fun/AI-Platforms/stable-diffusion-webui-forge/models/Stable-diffusion/aniversePonyXL_v40.safetensors",
+      "config": null
+    },
+    {
+      "title": "clarityXL_v20.safetensors",
+      "model_name": "clarityXL_v20",
+      "hash": null,
+      "sha256": null,
+      "filename": "/home/fun/AI-Platforms/stable-diffusion-webui-forge/models/Stable-diffusion/clarityXL_v20.safetensors",
+      "config": null
+    },
+    {
+      "title": "cyberrealisticPony_v8.safetensors",
+      "model_name": "cyberrealisticPony_v8",
+      "hash": null,
+      "sha256": null,
+      "filename": "/home/fun/AI-Platforms/stable-diffusion-webui-forge/models/Stable-diffusion/cyberrealisticPony_v8.safetensors",
+      "config": null
+    },
+    {
+      "title": "dreamshaperXL_v21TurboDPMSDE.safetensors [4496b36d48]",
+      "model_name": "dreamshaperXL_v21TurboDPMSDE",
+      "hash": "4496b36d48",
+      "sha256": "4496b36d48bfd7cfe4e5dbce3485db567bcefa2bef7238d290dbd45612125083",
+      "filename": "/home/fun/AI-Platforms/stable-diffusion-webui-forge/models/Stable-diffusion/dreamshaperXL_v21TurboDPMSDE.safetensors",
+      "config": null
+    },
+    {
+      "title": "duchaitenPonyReal_v20.safetensors [40bf088344]",
+      "model_name": "duchaitenPonyReal_v20",
+      "hash": "40bf088344",
+      "sha256": "40bf08834428cc20b91a65071eaa2c7550a69d9c448742b6b22aa5b0be4c7642",
+      "filename": "/home/fun/AI-Platforms/stable-diffusion-webui-forge/models/Stable-diffusion/duchaitenPonyReal_v20.safetensors",
+      "config": null
+    },
+    {
+      "title": "epicrealism_naturalSinRC1VAE.safetensors",
+      "model_name": "epicrealism_naturalSinRC1VAE",
+      "hash": null,
+      "sha256": null,
+      "filename": "/home/fun/AI-Platforms/stable-diffusion-webui-forge/models/Stable-diffusion/epicrealism_naturalSinRC1VAE.safetensors",
+      "config": null
+    },
+    {
+      "title": "Juggernaut_X_RunDiffusion_Hyper.safetensors [010be7341c]",
+      "model_name": "Juggernaut_X_RunDiffusion_Hyper",
+      "hash": "010be7341c",
+      "sha256": "010be7341cd98a136da775330ba3eb4e87025c6cfd2f5455dc64daee2200ae98",
+      "filename": "/home/fun/AI-Platforms/stable-diffusion-webui-forge/models/Stable-diffusion/Juggernaut_X_RunDiffusion_Hyper.safetensors",
+      "config": null
+    },
+    {
+      "title": "milftoonMix_v10.safetensors [a3346e4c7b]",
+      "model_name": "milftoonMix_v10",
+      "hash": "a3346e4c7b",
+      "sha256": "a3346e4c7b8bafa5fa9f8fcc57ef7dd4d08f642a7066e10920150c4e044e5a99",
+      "filename": "/home/fun/AI-Platforms/stable-diffusion-webui-forge/models/Stable-diffusion/milftoonMix_v10.safetensors",
+      "config": null
+    },
+    {
+      "title": "ponimilfmix_lightning.safetensors [33af44dc28]",
+      "model_name": "ponimilfmix_lightning",
+      "hash": "33af44dc28",
+      "sha256": "33af44dc2852dda65bd77809b72e6275b12c6f02aa3b148d31afa5f157296f14",
+      "filename": "/home/fun/AI-Platforms/stable-diffusion-webui-forge/models/Stable-diffusion/ponimilfmix_lightning.safetensors",
+      "config": null
+    },
+    {
+      "title": "ponyDiffusionV6XL_v6StartWithThisOne.safetensors [67ab2fd8ec]",
+      "model_name": "ponyDiffusionV6XL_v6StartWithThisOne",
+      "hash": "67ab2fd8ec",
+      "sha256": "67ab2fd8ec439a89b3fedb15cc65f54336af163c7eb5e4f2acc98f090a29b0b3",
+      "filename": "/home/fun/AI-Platforms/stable-diffusion-webui-forge/models/Stable-diffusion/ponyDiffusionV6XL_v6StartWithThisOne.safetensors",
+      "config": null
+    },
+    {
+      "title": "pornmasterProFULLV4_fullV4-inpainting.safetensors [21e3746540]",
+      "model_name": "pornmasterProFULLV4_fullV4-inpainting",
+      "hash": "21e3746540",
+      "sha256": "21e3746540db5244e2d9e4a270b2304d34358292857003e44057bf0f461ee2e2",
+      "filename": "/home/fun/AI-Platforms/stable-diffusion-webui-forge/models/Stable-diffusion/pornmasterProFULLV4_fullV4-inpainting.safetensors",
+      "config": null
+    },
+    {
+      "title": "pornmasterProNewv1_newv1.safetensors",
+      "model_name": "pornmasterProNewv1_newv1",
+      "hash": null,
+      "sha256": null,
+      "filename": "/home/fun/AI-Platforms/stable-diffusion-webui-forge/models/Stable-diffusion/pornmasterProNewv1_newv1.safetensors",
+      "config": null
+    },
+    {
+      "title": "pornmasterProPony_unrealPonyV2.safetensors",
+      "model_name": "pornmasterProPony_unrealPonyV2",
+      "hash": null,
+      "sha256": null,
+      "filename": "/home/fun/AI-Platforms/stable-diffusion-webui-forge/models/Stable-diffusion/pornmasterProPony_unrealPonyV2.safetensors",
+      "config": null
+    },
+    {
+      "title": "pornmasterProSDXL_sdxlV2VAE.safetensors",
+      "model_name": "pornmasterProSDXL_sdxlV2VAE",
+      "hash": null,
+      "sha256": null,
+      "filename": "/home/fun/AI-Platforms/stable-diffusion-webui-forge/models/Stable-diffusion/pornmasterProSDXL_sdxlV2VAE.safetensors",
+      "config": null
+    },
+    {
+      "title": "pornmasterProV6_v6.safetensors",
+      "model_name": "pornmasterProV6_v6",
+      "hash": null,
+      "sha256": null,
+      "filename": "/home/fun/AI-Platforms/stable-diffusion-webui-forge/models/Stable-diffusion/pornmasterProV6_v6.safetensors",
+      "config": null
+    },
+    {
+      "title": "pornrealistic_v10.safetensors",
+      "model_name": "pornrealistic_v10",
+      "hash": null,
+      "sha256": null,
+      "filename": "/home/fun/AI-Platforms/stable-diffusion-webui-forge/models/Stable-diffusion/pornrealistic_v10.safetensors",
+      "config": null
+    },
+    {
+      "title": "pornyPonyByStable_v10BF16.safetensors [373fd14c9b]",
+      "model_name": "pornyPonyByStable_v10BF16",
+      "hash": "373fd14c9b",
+      "sha256": "373fd14c9b1159c79a894dc5b46b782c3d45de9ba41629b7ebb367747e9b0260",
+      "filename": "/home/fun/AI-Platforms/stable-diffusion-webui-forge/models/Stable-diffusion/pornyPonyByStable_v10BF16.safetensors",
+      "config": null
+    },
+    {
+      "title": "prpAmateur_v10.safetensors",
+      "model_name": "prpAmateur_v10",
+      "hash": null,
+      "sha256": null,
+      "filename": "/home/fun/AI-Platforms/stable-diffusion-webui-forge/models/Stable-diffusion/prpAmateur_v10.safetensors",
+      "config": null
+    },
+    {
+      "title": "realDream_sdxlPony15.safetensors [4579b62f60]",
+      "model_name": "realDream_sdxlPony15",
+      "hash": "4579b62f60",
+      "sha256": "4579b62f604a45c6df113533782d3df772bea7a27f91f4d8c74a856531653af0",
+      "filename": "/home/fun/AI-Platforms/stable-diffusion-webui-forge/models/Stable-diffusion/realDream_sdxlPony15.safetensors",
+      "config": null
+    },
+    {
+      "title": "realismIllustriousBy_v25BF16.safetensors [24e20168d4]",
+      "model_name": "realismIllustriousBy_v25BF16",
+      "hash": "24e20168d4",
+      "sha256": "24e20168d4a354378106626c8c509f0d70054b90cddbdd2e5aafb9cdcd0c343e",
+      "filename": "/home/fun/AI-Platforms/stable-diffusion-webui-forge/models/Stable-diffusion/realismIllustriousBy_v25BF16.safetensors",
+      "config": null
+    },
+    {
+      "title": "realisticStockPhoto_v30SD15.safetensors",
+      "model_name": "realisticStockPhoto_v30SD15",
+      "hash": null,
+      "sha256": null,
+      "filename": "/home/fun/AI-Platforms/stable-diffusion-webui-forge/models/Stable-diffusion/realisticStockPhoto_v30SD15.safetensors",
+      "config": null
+    },
+    {
+      "title": "sd-v1-5-inpainting.ckpt",
+      "model_name": "sd-v1-5-inpainting",
+      "hash": null,
+      "sha256": null,
+      "filename": "/home/fun/AI-Platforms/stable-diffusion-webui-forge/models/Stable-diffusion/sd-v1-5-inpainting.ckpt",
+      "config": null
+    },
+    {
+      "title": "ugGasucablendV05_ugGasucablendV05.safetensors",
+      "model_name": "ugGasucablendV05_ugGasucablendV05",
+      "hash": null,
+      "sha256": null,
+      "filename": "/home/fun/AI-Platforms/stable-diffusion-webui-forge/models/Stable-diffusion/ugGasucablendV05_ugGasucablendV05.safetensors",
+      "config": null
+    },
+    {
+      "title": "unlimitedPORN_slutocalypse.safetensors [bef4cdd976]",
+      "model_name": "unlimitedPORN_slutocalypse",
+      "hash": "bef4cdd976",
+      "sha256": "bef4cdd976f6f3f13fcc336e7f6db912a5881332937195125b4cea1bdc0ce3f8",
+      "filename": "/home/fun/AI-Platforms/stable-diffusion-webui-forge/models/Stable-diffusion/unlimitedPORN_slutocalypse.safetensors",
+      "config": null
+    },
+    {
+      "title": "v1-5-pruned-emaonly.safetensors",
+      "model_name": "v1-5-pruned-emaonly",
+      "hash": null,
+      "sha256": null,
+      "filename": "/home/fun/AI-Platforms/stable-diffusion-webui-forge/models/Stable-diffusion/v1-5-pruned-emaonly.safetensors",
+      "config": null
+    }
+  ]

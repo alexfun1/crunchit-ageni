@@ -1,0 +1,296 @@
+{
+  "registration": {
+    "blocked_logins_names": [
+      "admin",
+      "root",
+      "superuser"
+    ],
+    "verify_email": false,
+    "verify_phone": false,
+    "default_role": 2
+  },
+  "features_enabled": {
+    "free_user": {
+      "txt2img": [
+        "crunchit"
+      ],
+      "img2img": [
+        "crunchit"
+      ],
+      "chat": [
+        "crunchit"
+      ]
+    },
+    "premium_user": {
+      "txt2img": [
+        "crunchit",
+        "civitai",
+        "huggingface"
+      ],
+      "img2img": [
+        "crunchit",
+        "civitai",
+        "huggingface"
+      ],
+      "chat": [
+        "crunchit",
+        "civitai",
+        "huggingface"
+      ]
+    }
+  },
+  "connected_providers": [
+    "crunchit",
+    "civitai",
+    "huggingface"
+  ],
+  "provider_config": {
+    "crunchit": {
+      "url": "https://crunchit.com/api/v1",
+      "api_key": "1234567890"
+    },
+    "civitai": {
+      "url": "https://civitai.com/api/v1",
+      "api_key": "1234567890"
+    },
+    "huggingface": {
+      "url": "https://huggingface.com/api/v1",
+      "api_key": "1234567890"
+    }
+  },
+  "provider_features": {
+    "crunchit": [
+      "txt2img",
+      "img2img",
+      "chat"
+    ],
+    "civitai": [
+      "txt2img",
+      "img2img",
+      "chat"
+    ],
+    "huggingface": [
+      "txt2img",
+      "img2img",
+      "chat"
+    ]
+  },
+  "provider_features_config": {
+    "crunchit": {
+      "txt2img": {
+        "free_user": {
+          "width": 256,
+          "height": 256,
+          "reactor": false,
+          "poses": [
+            "front",
+            "side",
+            "back"
+          ],
+          "adetailer": false,
+          "max_text_length": 100,
+          "gen_cost": 5
+        },
+        "premium_user": {
+          "width": 512,
+          "height": 512,
+          "reactor": true,
+          "poses": [
+            "front",
+            "side",
+            "back",
+            "top",
+            "bottom"
+          ],
+          "adetailer": true,
+          "max_text_length": 200,
+          "gen_cost": 2
+        }
+      },
+      "img2img": {
+        "free_user": {
+          "width": 256,
+          "height": 256,
+          "reactor": false,
+          "poses": [
+            "front",
+            "side",
+            "back"
+          ],
+          "adetailer": false,
+          "max_text_length": 100,
+          "gen_cost": 5
+        },
+        "premium_user": {
+          "width": 512,
+          "height": 512,
+          "reactor": true,
+          "poses": [
+            "front",
+            "side",
+            "back",
+            "top",
+            "bottom"
+          ],
+          "adetailer": true,
+          "max_text_length": 200,
+          "gen_cost": 2
+        }
+      },
+      "chat": {
+        "free_user": {
+          "max_text_length": 100,
+          "gen_cost": 5
+        },
+        "premium_user": {
+          "max_text_length": 200,
+          "gen_cost": 2
+        }
+      }
+    },
+    "civitai": {
+      "txt2img": {
+        "free_user": {
+          "width": 256,
+          "height": 256,
+          "reactor": false,
+          "poses": [
+            "front",
+            "side",
+            "back"
+          ],
+          "adetailer": false,
+          "max_text_length": 100,
+          "gen_cost": 5
+        },
+        "premium_user": {
+          "width": 512,
+          "height": 512,
+          "reactor": true,
+          "poses": [
+            "front",
+            "side",
+            "back",
+            "top",
+            "bottom"
+          ],
+          "adetailer": true,
+          "max_text_length": 200,
+          "gen_cost": 2
+        }
+      },
+      "img2img": {
+        "free_user": {
+          "width": 256,
+          "height": 256,
+          "reactor": false,
+          "poses": [
+            "front",
+            "side",
+            "back"
+          ],
+          "adetailer": false,
+          "max_text_length": 100,
+          "gen_cost": 5
+        },
+        "premium_user": {
+          "width": 512,
+          "height": 512,
+          "reactor": true,
+          "poses": [
+            "front",
+            "side",
+            "back",
+            "top",
+            "bottom"
+          ],
+          "adetailer": true,
+          "max_text_length": 200,
+          "gen_cost": 2
+        }
+      },
+      "chat": {
+        "free_user": {
+          "max_text_length": 100,
+          "gen_cost": 5
+        },
+        "premium_user": {
+          "max_text_length": 200,
+          "gen_cost": 2
+        }
+      }
+    },
+    "huggingface": {
+      "txt2img": {
+        "free_user": {
+          "width": 256,
+          "height": 256,
+          "reactor": false,
+          "poses": [
+            "front",
+            "side",
+            "back"
+          ],
+          "adetailer": false,
+          "max_text_length": 100,
+          "gen_cost": 5
+        },
+        "premium_user": {
+          "width": 512,
+          "height": 512,
+          "reactor": true,
+          "poses": [
+            "front",
+            "side",
+            "back",
+            "top",
+            "bottom"
+          ],
+          "adetailer": true,
+          "max_text_length": 200,
+          "gen_cost": 2
+        }
+      },
+      "img2img": {
+        "free_user": {
+          "width": 256,
+          "height": 256,
+          "reactor": false,
+          "poses": [
+            "front",
+            "side",
+            "back"
+          ],
+          "adetailer": false,
+          "max_text_length": 100,
+          "gen_cost": 5
+        },
+        "premium_user": {
+          "width": 512,
+          "height": 512,
+          "reactor": true,
+          "poses": [
+            "front",
+            "side",
+            "back",
+            "top",
+            "bottom"
+          ],
+          "adetailer": true,
+          "max_text_length": 200,
+          "gen_cost": 2
+        }
+      },
+      "chat": {
+        "free_user": {
+          "max_text_length": 100,
+          "gen_cost": 5
+        },
+        "premium_user": {
+          "max_text_length": 200,
+          "gen_cost": 2
+        }
+      }
+    }
+  }
+}

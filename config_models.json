@@ -1,0 +1,115 @@
+{
+    "models": [
+      {
+        "name": "MilfToon_Mix",
+        "filename": "MilfToonMix_v10",
+        "sampler": "Euler a",
+        "scheduler": "",
+        "steps": 30,
+        "guidance": 7,
+        "clip_skip": 2,
+        "nsfw": false,
+        "activation_phrase": [""],
+        "prompt": "",
+        "neg_prompt": "",
+        "crunchit": {
+          "model": "MilfToonMix_v10"
+        },
+        "civitai": {
+          "ecosystem": "sd1",
+          "type": "Checkpoint",
+          "source": "civitai",
+          "id": 327148,
+          "version": "366653",
+          "layer": "",
+          "format": ""
+        },
+        "huggingface": {
+          "model": "EleutherAI/gpt-neo-2.7B",
+          "tokenizer": "EleutherAI/gpt-neo-2.7B",
+          "max_length": 1024
+        }
+      },
+      {
+        "name": "PornRealistic",
+        "filename": "pornRealistic_v10",
+        "sampler": "ddim",
+        "scheduler": "pndm",
+        "steps": 30,
+        "guidance": 7.5,
+        "clip_skip": 2,
+        "nsfw": true,
+        "activation_phrase": [""],
+        "prompt": "",
+        "neg_prompt": "",
+        "civitai": {
+          "ecosystem": "sd1",
+          "type": "Checkpoint",
+          "source": "civitai",
+          "id": 5678,
+          "version": "42",
+          "layer": "",
+          "format": ""
+        }
+      },
+      {
+        "name": "Slutocalipses",
+        "filename": "unlimitedPorn",
+        "sampler": "Euler a",
+        "scheduler": "",
+        "steps": 30,
+        "guidance": 5,
+        "clip_skip": 2,
+        "nsfw": true,
+        "activation_phrase": [""],
+        "prompt": "",
+        "neg_prompt": "",
+        "civitai": {
+          "ecosystem": "sd1",
+          "type": "Checkpoint",
+          "source": "civitai",
+          "id": 5678,
+          "version": "42",
+          "layer": "",
+          "format": ""
+        }
+      }
+    ],
+    "loras": [
+      {
+        "name": "LoRA_A",
+        "prompt_tag": "<Incase Style>",
+        "activation phrases": ["1girl", "1boy"],
+        "weight": 1.0,
+        "nsfw": false,
+        "civitai": {
+          "ecosystem": "Pony",
+          "type": "LORA",
+          "source": "civitai",
+          "id": 300005,
+          "version": "436219",
+          "layer": "",
+          "format": ""
+        },
+        "civitai_url": "https://api.civitai.com/v1/models/300005"
+      },
+      {
+        "name": "Expressive",
+        "prompt_tag": "<lora:LoRA_B:1.0>",
+        "activation phrases": ["EXPRESSIVEH"],
+        "weight": 1.0,
+        "nsfw": true,
+        "civitai": {
+          "ecosystem": "Pony",
+          "type": "LORA",
+          "source": "civitai",
+          "id": 341353,
+          "version": "382152",
+          "layer": "",
+          "format": ""
+        },
+        "civitai_url": "https://api.civitai.com/v1/models/341353"
+      }
+    ]
+  }
+  

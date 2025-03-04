@@ -1,296 +1,170 @@
 {
-  "registration": {
-    "blocked_logins_names": [
-      "admin",
-      "root",
-      "superuser"
+    "loras": [
+      { "id": "add-detail-xl", "description": "Add Detail XL", "format": "<lora:add-detail-xl:0.6>", "custom_wording": "enhanced detailing, sharp edges" },
+      { "id": "Expressive_H", "description": "Expressive H", "format": "<lora:Expressive_H:0.6>", "custom_wording": "expressive emotions, cinematic lighting" },
+      { "id": "incase-ilff-v3-4", "description": "Incase ILFF v3.4", "format": "<lora:incase-ilff-v3-4:0.6>", "custom_wording": "dynamic shadows, realism boost" },
+      { "id": "Leather_Short_Dress_D2_By_Stable_Yogi", "description": "Leather Short Dress D2", "format": "<lora:Leather_Short_Dress_D2_By_Stable_Yogi:0.6>", "custom_wording": "high fashion, smooth textures" },
+      { "id": "Leggings_Sports_Bra_By_Stable_Yogi", "description": "Leggings & Sports Bra", "format": "<lora:Leggings_Sports_Bra_By_Stable_Yogi:0.6>", "custom_wording": "athletic look, toned physique" },
+      { "id": "princess_xl_v2", "description": "Princess XL v2", "format": "<lora:princess_xl_v2:0.6>", "custom_wording": "royal attire, elegant composition" },
+      { "id": "skin_texture_style_v4", "description": "Skin Texture Style v4", "format": "<lora:skin_texture_style_v4:0.6>", "custom_wording": "realistic pores, soft lighting" },
+      { "id": "Watercolor_Painting_Style_LoRA_Pony_XL_v6", "description": "Watercolor Painting Style", "format": "<lora:Watercolor_Painting_Style_LoRA_Pony_XL_v6:0.6>", "custom_wording": "watercolor blending, soft hues" },
+      { "id": "zy_Realism_Enhancer_v1", "description": "ZY Realism Enhancer", "format": "<lora:zy_Realism_Enhancer_v1:0.6>", "custom_wording": "photo-realistic detail, crisp textures" },
+      { "id": "Yoga_Pants_by_Stable_Yogi", "description": "Yoga Pants", "format": "<lora:Yoga_Pants_by_Stable_Yogi:0.6>", "custom_wording": "tight fabric, defined contours" },
+      { "id": "wreal_consolidated", "description": "WReal Consolidated", "format": "<lora:wreal_consolidated:0.6>", "custom_wording": "cinematic grading, deep contrast" },
+      { "id": "Impressionism_Oil_Painting_Style_LoRA_Pony_XL_v6", "description": "Impressionism Oil Painting", "format": "<lora:Impressionism_Oil_Painting_Style_LoRA_Pony_XL_v6:0.6>", "custom_wording": "thick brushstrokes, warm palettes" },
+      { "id": "Classic_80_Style_Business_Suit", "description": "Classic 80 Style Business Suit", "format": "<lora:Classic_80_Style_Business_Suit:0.6>", "custom_wording": "retro fashion, sharp tailoring" },
+      { "id": "Crochet_Bodystocking", "description": "Crochet Bodystocking", "format": "<lora:Crochet_Bodystocking_By_Stable_Yogi:0.6>", "custom_wording": "intricate patterns, sheer fabric" },
+      { "id": "Floral_Corset", "description": "Floral Corset", "format": "<lora:Floral_Corset_By_Stable_Yogi:0.6>", "custom_wording": "floral motifs, feminine silhouette" },
+      { "id": "HT_Pajamas", "description": "HT Pajamas", "format": "<lora:HT_Pajamas:0.6>", "custom_wording": "cozy sleepwear, soft fabrics" },
+      { "id": "Satin_Pajamas", "description": "Satin Pajamas", "format": "<lora:Satin_Pajamas:0.6>", "custom_wording": "luxurious sleepwear, silky textures" },
+      { "id": "shuiyiv3-lion", "description": "Shuiyi v3 Lion", "format": "<lora:shuiyiv3-lion:0.6>", "custom_wording": "majestic lion, detailed fur" },
+      { "id": "womansuit-1", "description": "Woman's Suite", "format": "<lora:womansuit-1:0.6>", "custom_wording": "elegant attire, professional look" }
     ],
-    "verify_email": false,
-    "verify_phone": false,
-    "default_role": 2
-  },
-  "features_enabled": {
-    "free_user": {
-      "txt2img": [
-        "crunchit"
-      ],
-      "img2img": [
-        "crunchit"
-      ],
-      "chat": [
-        "crunchit"
-      ]
-    },
-    "premium_user": {
-      "txt2img": [
-        "crunchit",
-        "civitai",
-        "huggingface"
-      ],
-      "img2img": [
-        "crunchit",
-        "civitai",
-        "huggingface"
-      ],
-      "chat": [
-        "crunchit",
-        "civitai",
-        "huggingface"
-      ]
-    }
-  },
-  "connected_providers": [
-    "crunchit",
-    "civitai",
-    "huggingface"
-  ],
-  "provider_config": {
-    "crunchit": {
-      "url": "https://crunchit.com/api/v1",
-      "api_key": "1234567890"
-    },
-    "civitai": {
-      "url": "https://civitai.com/api/v1",
-      "api_key": "1234567890"
-    },
-    "huggingface": {
-      "url": "https://huggingface.com/api/v1",
-      "api_key": "1234567890"
-    }
-  },
-  "provider_features": {
-    "crunchit": [
-      "txt2img",
-      "img2img",
-      "chat"
-    ],
-    "civitai": [
-      "txt2img",
-      "img2img",
-      "chat"
-    ],
-    "huggingface": [
-      "txt2img",
-      "img2img",
-      "chat"
-    ]
-  },
-  "provider_features_config": {
-    "crunchit": {
-      "txt2img": {
-        "free_user": {
-          "width": 256,
-          "height": 256,
-          "reactor": false,
-          "poses": [
-            "front",
-            "side",
-            "back"
-          ],
-          "adetailer": false,
-          "max_text_length": 100,
-          "gen_cost": 5
+    "automatic1111": {
+      "url": "http://127.0.0.1:7860",
+      "samplers": ["Euler a", "DPM++ 2M", "DPM++ 2M SDE"],
+      "scheduler": ["Automatic", "Karras"],
+      "models": {
+        "Cyber Realistic": {
+            "name": "cyberrealisticPony_v8",
+            "guidance": 10,
+            "clip_skip": 2,
+            "nsfw": true,
+            "sampler": "Euler a",
+            "scheduler": "",
+            "steps": 40,
+            "pose_model": "depth_sdxl_medium [65ddd57c]",
+            "activation_phrase": [""],
+            "prompt": "safe_pos, score_9, score_8_up, score_7_up, realistic, high quality, ultra details, 4k, high contrast, intricate design, depth of field, sharp focus",
+            "negative_prompt": "score_4, score_5, score_6, (bad anatomy:1.5)(worst quality, low quality:1.4), (greyscale, monochrome:1.1)"
         },
-        "premium_user": {
-          "width": 512,
-          "height": 512,
-          "reactor": true,
-          "poses": [
-            "front",
-            "side",
-            "back",
-            "top",
-            "bottom"
-          ],
-          "adetailer": true,
-          "max_text_length": 200,
-          "gen_cost": 2
-        }
-      },
-      "img2img": {
-        "free_user": {
-          "width": 256,
-          "height": 256,
-          "reactor": false,
-          "poses": [
-            "front",
-            "side",
-            "back"
-          ],
-          "adetailer": false,
-          "max_text_length": 100,
-          "gen_cost": 5
+        "Dream Shaper": {
+          "name": "dreamshaperXL_v21TurboDPMSDE", 
+          "guidance": 2,
+          "clip_skip": 8,
+          "nsfw": true,
+          "sampler": "DPM++ SDE",
+          "scheduler": "Karras",
+          "steps": 30,
+          "pose_model": "depth_sdxl_medium [65ddd57c]",
+          "activation_phrase": [""],
+          "prompt": "safe_pos, score_9, score_8_up, score_7_up, realistic, high quality, ultra details, 4k, high contrast, intricate design, depth of field, sharp focus",
+            "negative_prompt": "score_4, score_5, score_6, (bad anatomy:1.5)(worst quality, low quality:1.4), (greyscale, monochrome:1.1)"
         },
-        "premium_user": {
-          "width": 512,
-          "height": 512,
-          "reactor": true,
-          "poses": [
-            "front",
-            "side",
-            "back",
-            "top",
-            "bottom"
-          ],
-          "adetailer": true,
-          "max_text_length": 200,
-          "gen_cost": 2
-        }
-      },
-      "chat": {
-        "free_user": {
-          "max_text_length": 100,
-          "gen_cost": 5
+        "Realistic Anime Style": {
+          "name": "duchaitenPonyReal_v20",
+          "guidance": 9,
+          "clip_skip": 2,
+          "nsfw": true,
+          "sampler": "DPM++ SDE",
+          "scheduler": "",
+          "steps": 30,
+          "pose_model": "depth_sdxl_medium [65ddd57c]",
+          "activation_phrase": [""],
+          "prompt": "safe_pos, score_9, score_8_up, score_7_up, realistic, high quality, ultra details, 4k, high contrast, intricate design, depth of field, sharp focus",
+          "negative_prompt": "score_4, score_5, score_6, (bad anatomy:1.5)(worst quality, low quality:1.4), (greyscale, monochrome:1.1)"
         },
-        "premium_user": {
-          "max_text_length": 200,
-          "gen_cost": 2
+        "Epic Realism": {
+          "name": "epicrealism_naturalSinRC1VAE",
+          "guidance": 7,
+          "clip_skip": 2,
+          "nsfw": true,
+          "sampler": "DPM++ 2M SDE",
+          "scheduler": "",
+          "steps": 40,
+          "pose_model": "depth_sdxl_medium [65ddd57c]",
+          "activation_phrase": [""],
+          "prompt": "safe_pos, score_9, score_8_up, score_7_up, realistic, high quality, ultra details, 4k, high contrast, intricate design, depth of field, sharp focus",
+            "negative_prompt": "score_4, score_5, score_6, (bad anatomy:1.5)(worst quality, low quality:1.4), (greyscale, monochrome:1.1)"
+        },
+        "Juggernaut - Best average": {
+          "name": "Juggernaut_X_RunDiffusion_Hyper",
+          "guidance": 2,
+          "clip_skip": 2,
+          "nsfw": false,
+          "sampler": "DPM++ SDE",
+          "scheduler": "Karras",
+          "steps": 6,
+          "pose_model": "depth_sdxl_medium [65ddd57c]",
+          "activation_phrase": [""],
+          "prompt": "safe_pos, score_9, score_8_up, score_7_up, realistic, high quality, ultra details, 4k, high contrast, intricate design, depth of field, sharp focus",
+          "negative_prompt": "score_4, score_5, score_6, (bad anatomy:1.5)(worst quality, low quality:1.4), (greyscale, monochrome:1.1)"
+        },
+        "MILFToon": {
+          "name": "milftoonMix_v10",  
+          "guidance": 7,
+          "clip_skip": 2,
+          "nsfw": true,
+          "sampler": "Euler a",
+          "scheduler": "",
+          "steps": 30,
+          "pose_model": "depth_sdxl_medium [65ddd57c]",
+          "activation_phrase": [""],
+          "prompt": "safe_pos, score_9, score_8_up, score_7_up, realistic, high quality, ultra details, 4k, high contrast, intricate design, depth of field, sharp focus",
+          "negative_prompt": "score_4, score_5, score_6, (bad anatomy:1.5)(worst quality, low quality:1.4), (greyscale, monochrome:1.1)"
+        },
+        "MILF Anime": {
+          "name": "ponimilfmix_lightning",
+          "guidance": 2,
+          "clip_skip": 2,
+          "nsfw": true,
+          "sampler": "DPM++ SDE",
+          "scheduler": "",
+          "steps": 6,
+          "pose_model": "depth_sdxl_medium [65ddd57c]",
+          "activation_phrase": [""],
+          "prompt": "safe_pos, score_9, score_8_up, score_7_up, realistic, high quality, ultra details, 4k, high contrast, intricate design, depth of field, sharp focus",
+          "negative_prompt": "score_4, score_5, score_6, (bad anatomy:1.5)(worst quality, low quality:1.4), (greyscale, monochrome:1.1)"
+        },
+        "NSFW": {
+          "name": "unlimitedPORN_slutocalypse",
+          "guidance": 5,
+          "clip_skip": 2,
+          "nsfw": true,
+          "sampler": "Euler a",
+          "scheduler": "",
+          "steps": 30,
+          "pose_model": "depth_sdxl_medium [65ddd57c]",
+          "activation_phrase": [""],
+          "prompt": "safe_pos, score_9, score_8_up, score_7_up, realistic, high quality, ultra details, 4k, high contrast, intricate design, depth of field, sharp focus",
+          "negative_prompt": "score_4, score_5, score_6, (bad anatomy:1.5)(worst quality, low quality:1.4), (greyscale, monochrome:1.1)"
+        },
+        "Any Milf": {
+        "name": "animilf25DMix_v10",
+        "guidance": 7,
+        "clip_skip": 2,
+        "nsfw": true,
+        "sampler": "DPM++ 2M",
+        "scheduler": "Karras",
+        "steps": 30,
+        "pose_model": "depth_sdxl_medium [65ddd57c]",
+        "activation_phrase": [""],
+        "prompt": "safe_pos, score_9, score_8_up, score_7_up, realistic, high quality, ultra details, 4k, high contrast, intricate design, depth of field, sharp focus",
+        "negative_prompt": "score_4, score_5, score_6, (bad anatomy:1.5)(worst quality, low quality:1.4), (greyscale, monochrome:1.1)"
+        },
+        "Cyber Realistic 1.5": {
+          "name": "cyberrealistic_v80",
+          "guidance": 4,
+          "clip_skip": 2,
+          "nsfw": true,
+          "sampler": "DPM++ 2M",
+          "scheduler": "Karras",
+          "steps": 25,
+          "pose_model": "depth_sdxl_medium [65ddd57c]",
+          "activation_phrase": [""],
+          "prompt": "safe_pos, score_9, score_8_up, score_7_up, realistic, high quality, ultra details, 4k, high contrast, intricate design, depth of field, sharp focus",
+          "negative_prompt": "score_4, score_5, score_6, (bad anatomy:1.5)(worst quality, low quality:1.4), (greyscale, monochrome:1.1)"
         }
       }
     },
-    "civitai": {
-      "txt2img": {
-        "free_user": {
-          "width": 256,
-          "height": 256,
-          "reactor": false,
-          "poses": [
-            "front",
-            "side",
-            "back"
-          ],
-          "adetailer": false,
-          "max_text_length": 100,
-          "gen_cost": 5
-        },
-        "premium_user": {
-          "width": 512,
-          "height": 512,
-          "reactor": true,
-          "poses": [
-            "front",
-            "side",
-            "back",
-            "top",
-            "bottom"
-          ],
-          "adetailer": true,
-          "max_text_length": 200,
-          "gen_cost": 2
-        }
-      },
-      "img2img": {
-        "free_user": {
-          "width": 256,
-          "height": 256,
-          "reactor": false,
-          "poses": [
-            "front",
-            "side",
-            "back"
-          ],
-          "adetailer": false,
-          "max_text_length": 100,
-          "gen_cost": 5
-        },
-        "premium_user": {
-          "width": 512,
-          "height": 512,
-          "reactor": true,
-          "poses": [
-            "front",
-            "side",
-            "back",
-            "top",
-            "bottom"
-          ],
-          "adetailer": true,
-          "max_text_length": 200,
-          "gen_cost": 2
-        }
-      },
-      "chat": {
-        "free_user": {
-          "max_text_length": 100,
-          "gen_cost": 5
-        },
-        "premium_user": {
-          "max_text_length": 200,
-          "gen_cost": 2
-        }
-      }
-    },
-    "huggingface": {
-      "txt2img": {
-        "free_user": {
-          "width": 256,
-          "height": 256,
-          "reactor": false,
-          "poses": [
-            "front",
-            "side",
-            "back"
-          ],
-          "adetailer": false,
-          "max_text_length": 100,
-          "gen_cost": 5
-        },
-        "premium_user": {
-          "width": 512,
-          "height": 512,
-          "reactor": true,
-          "poses": [
-            "front",
-            "side",
-            "back",
-            "top",
-            "bottom"
-          ],
-          "adetailer": true,
-          "max_text_length": 200,
-          "gen_cost": 2
-        }
-      },
-      "img2img": {
-        "free_user": {
-          "width": 256,
-          "height": 256,
-          "reactor": false,
-          "poses": [
-            "front",
-            "side",
-            "back"
-          ],
-          "adetailer": false,
-          "max_text_length": 100,
-          "gen_cost": 5
-        },
-        "premium_user": {
-          "width": 512,
-          "height": 512,
-          "reactor": true,
-          "poses": [
-            "front",
-            "side",
-            "back",
-            "top",
-            "bottom"
-          ],
-          "adetailer": true,
-          "max_text_length": 200,
-          "gen_cost": 2
-        }
-      },
-      "chat": {
-        "free_user": {
-          "max_text_length": 100,
-          "gen_cost": 5
-        },
-        "premium_user": {
-          "max_text_length": 200,
-          "gen_cost": 2
-        }
-      }
-    }
+    "resolutions": [
+        {"label": "Vertical (9:16)", "width": 768, "height": 1344},
+        {"label": "Portrait (4:5)", "width": 915, "height": 1144},
+        {"label": "Square (1:1)", "width": 1024, "height": 1024},
+        {"label": "Photo (4:3)", "width": 1182, "height": 886},
+        {"label": "Landscape (3:2)", "width": 1254, "height": 836},
+        {"label": "Widescreen (16:9)", "width": 1365, "height": 768},
+        {"label": "Cinematic (21:9)", "width": 1564, "height": 670}
+    ],
+    "negative_prompt": "score_4, score_5, score_6, (bad anatomy:1.5)(worst quality, low quality:1.4), (greyscale, monochrome:1.1)"
   }
-}
